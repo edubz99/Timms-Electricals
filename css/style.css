@@ -98,6 +98,9 @@ body{
     text-transform: uppercase;
     font-weight: bold;
 }
+.navbar-nav > li a {
+	padding-left: 0px;
+}
 .navbar-default .navbar-nav > li > a {
     color:#fff;
 }
@@ -2804,8 +2807,10 @@ figure.effect-roxy h3 {
   @media (max-width:768px) {
 	  .w3ls-banner-info-bottom .container{
 		  flex-direction: column;
-		  
 	  }
+	  .header .container{
+		padding: 0px;
+	}
 
   }
 
